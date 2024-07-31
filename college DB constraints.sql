@@ -15,7 +15,7 @@ INSERT INTO student (rollno, name, marks, grade, city) VALUES
 	(106,'Rohan',90,'A','Pune' ) ; 
 SELECT * from student ; 
 SELECT name,grade from student ; 
-SELECT distinct marks,grade  from student ;//distinct unique 
+SELECT distinct marks,grade  from student ; //distinct unique 
 SELECT distinct marks  from student ; 
 SELECT distinct grade  from student ;  
     
