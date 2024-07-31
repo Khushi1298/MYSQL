@@ -13,3 +13,5 @@ insert into customers values
 SELECT * from customers ; 
 SELECT * from customers WHERE city='agra'; 
 SELECT * from customers WHERE id=3; 
+SELECT * from customers WHERE city='agra' and id=2; 
+SELECT * from customers WHERE city='agra' or id=2; 
