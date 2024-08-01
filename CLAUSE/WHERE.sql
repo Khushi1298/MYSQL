@@ -10,7 +10,7 @@ insert into customers values
      (1,'rajkumar','raj','pune') ,
      (2,'jitendra','pandit','agra') , 
      (3,'rahul','near','agra') ; 
-SELECT * from customers ; 
+SELECT * from customers ;
 SELECT * from customers WHERE city='agra'; 
 SELECT * from customers WHERE id=3; 
 SELECT * from customers WHERE city='agra' and id=2; 
